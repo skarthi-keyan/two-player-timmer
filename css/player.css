@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+#center-container{
+    background: white;
+	width: 400;
+    left: 29%;
+    position: fixed;
+    top: 50px;
+	padding-bottom: 20;
+    padding-left: 10px;
+	height: 220;
+
+}
+#submit{
+    position: fixed;
+    margin-top: 5;
+	border: none;
+    background-color: #01b1f9;
+    border-radius: 5px;
+    padding: 10;
+    color: white;
+}
+input{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.btn{
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn:hover { 
+  background-color: RoyalBlue;
+}
+#name-div{
+margin-top: 20px;
+}
+.center-div{
+    left: 38%;
+    position: fixed;
+}
+#first-component{
+    margin-top: 10;
+}
+#message{
+    margin-top: 25;
+    font-size: 17px;
+    font-style: italic;
+}
+#timmer-div{
+    font-size: 50;
+    color: green;}

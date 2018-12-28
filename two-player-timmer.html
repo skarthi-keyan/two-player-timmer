@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>index</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/player.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/game-timmer.js"></script>
+</head>
+<body>
+<div id="center-container">
+<div id="form-div">
+<div id="first-component" class="row">
+  <div class="col-sm-6"><b>Player one name</b></div>
+  <div class="col-sm-6"><b>Player second name<b></div>
+</div>
+<div class="row">
+  <div class="col-sm-6"><input id="useronename" type="text" placeholder="name"/></div>
+  <div class="col-sm-6"><input id="usersecondname" type="text" placeholder="name"/></div>
+</div>
+ <div class="row">
+ <div class="center-div">
+      <button id ="submit" class="btn">Submit</button>
+ </div>
+    </div>
+</div>
+<div id="result-div" style="display:none">
+ <div class="row" id="name-div">
+   <div class="col-sm-6" id="userone"></div>
+   <div class="col-sm-6" id="usersecond"></div>
+ </div>
+<div class="row" id="timmer-div">
+   <div class="col-sm-6" id="useronetimer" value="0">05:00</div>
+   <div class="col-sm-6" id="usersecondtimer" value="0">05:00</div>
+</div>
+<div id="message">Press Enter to start and switch the user timer</div>
+</div>
+</div>
+</body> 
+</html>
